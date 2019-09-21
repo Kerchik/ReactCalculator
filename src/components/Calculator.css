@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+  }
+  #calculator {
+    display: inline-block;
+    margin-top: 15%;
+  }
+  .row button {
+    color: #8a8686;
+    background-color: #e3dbda;
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+  }
+  #input {
+    background-color: #000;
+    min-height: 50px;
+    color: #fff;
+    text-align: end;
+    line-height: 50px;
+    
+  }
+  .row-clear button{
+    color: #000;
+    background-color: #a8a6a0;
+    width: 200px;
+    height: 50px;
+    border: solid 1px black;
+  }
+  .row button:active {
+    background-color: #c9c2c1;
+  }
+  .row-clear button:active {
+    background-color: #8b8a85;
+  }
